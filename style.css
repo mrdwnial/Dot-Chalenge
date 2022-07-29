@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: YekanBakh;
+  font-size: 1em;
+  direction: rtl;
+  background-color: #bcece0;
+  border: none;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 20em;
+  width: 30em;
+  background-color: #ff65c5;
+  border-radius: 50px;
+  box-shadow: 6px 6px 32px #d94b91, -6px -6px 32px #ff65c5;
+}
+
+#title {
+  background-color: #ff65c5;
+  color: #603f8b;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff65c5;
+  width: 80%;
+  height: 20%;
+  overflow: hidden;
+}
+.form input {
+  background-color: #ff65c5;
+  padding: 2% 15%;
+  border: 1px solid #4c5270;
+  border-radius: 15px;
+  font-weight: bold;
+}
+.form input:focus {
+  outline: none;
+}
+.form button {
+  cursor: pointer;
+  background-color: #36eee0;
+  padding: 2% 5%;
+  margin-right: 5px;
+  border: 1px solid #36eee0;
+  border-radius: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: #4c5270;
+}
+.form button:hover {
+  transform: scale(1.1);
+  transition-duration: 400ms;
+}
+
+#outputText {
+  background-color: #ff65c5;
+  color: #603f8b;
+}
+
+@font-face {
+  font-family: YekanBakh;
+  src: url(./Yekan-Bakh-FaNum-04-Regular.ttf);
+}
